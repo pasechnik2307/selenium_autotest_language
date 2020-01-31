@@ -13,4 +13,4 @@ def basket_should_be_present(browser):
 def test_basket_shuld_be_visible(browser):
     browser.get(link)
     time.sleep(30)
-    assert basket_should_be_present(browser),g "Basket element shuld be present."
+    assert basket_should_be_present(browser), "Basket element shuld be present."
